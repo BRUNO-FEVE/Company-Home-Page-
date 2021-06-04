@@ -1,0 +1,80 @@
+/* 
+
+Fonts :
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+/* Defaults Configs*/
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
+
+/*Header*/
+.header {
+  display: fixed;
+}
+
+/* Fast Links */
+.header li {
+  display: inline-flex;
+  float: right;
+  font-size: 20px;
+}
+
+.header li ul a {
+  text-decoration: none;
+  position: relative;
+  top: 17px;
+  margin-right: 10px;
+}
+
+.header li ul a:visited {
+  color: rgb(82, 82, 82);
+  font-weight: bold;
+}
+
+.header li ul a:hover {
+  color: black;
+  font-size: 21px;
+}
+
+/* Logo */
+.logo {
+  display: inline-flex;
+}
+
+/* Image Logo */
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Logo Text */
+.logo h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Mission Section */
+.mission {
+  background-image: url(Resources/MainPage.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission .logo {
+  color: white;
+  width: 30%;
+  text-align: center;
+}
+
+.mission h3 {
+  font-family: "Nothing You Could Do", cursive;
+  color: white;
+}
