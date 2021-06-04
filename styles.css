@@ -43,6 +43,7 @@ body {
 /* Logo */
 .logo {
   display: inline-flex;
+  align-items: center;
 }
 
 /* Image Logo */
@@ -72,6 +73,7 @@ body {
   color: white;
   width: 30%;
   text-align: center;
+  align-items: center;
 }
 
 .mission h3 {
