@@ -40,9 +40,12 @@ body {
   font-size: 21px;
 }
 
+.header-logo {
+  display: inline-flex;
+}
+
 /* Logo */
 .logo {
-  display: inline-flex;
   align-items: center;
 }
 
@@ -74,6 +77,10 @@ body {
   width: 30%;
   text-align: center;
   align-items: center;
+}
+
+.mission img {
+  margin-right: 10px;
 }
 
 .mission h3 {
