@@ -204,19 +204,30 @@ h1 {
   background-position: center;
 }
 
+/* Leaders Background */
 .team {
-  background-image: url("Resources/pexels-felipe-d'sousa-2539595.jpg");
+  background-image: url(Resources/LeadersBackground.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
+/* Footer */
 footer {
   width: 100%;
   text-align: center;
   line-height: 10px;
 }
 
+/* Footer Img */
 footer img {
   width: 60px;
+}
+
+/* Copyright Bar */
+.copy {
+  width: 100%;
+  background-color: #dadada;
+  position: relative;
+  top: 20px;
 }
