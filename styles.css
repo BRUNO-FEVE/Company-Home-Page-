@@ -5,7 +5,7 @@ font-family: 'Nothing You Could Do', cursive;
 font-family: 'Raleway', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; */
 
-/* Defaults Configs*/
+/* Defaults Configs */
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
@@ -16,7 +16,7 @@ h1 {
   text-align: center;
 }
 
-/*Header*/
+/* Header */
 .header {
   display: fixed;
   background-color: #f2f2f2;
@@ -230,4 +230,17 @@ footer img {
   background-color: #dadada;
   position: relative;
   top: 20px;
+}
+
+/* Media for small screens */
+@media only screen and (max-width: 750px) {
+  /* Mission Background Img */
+  .mission {
+    background-size: auto 100%;
+  }
+
+  /* Leaders Background Img */
+  .team {
+    background-size: auto 100%;
+  }
 }
