@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 /*Header*/
 .header {
   display: fixed;
@@ -72,6 +76,7 @@ body {
   background-image: url(Resources/MainPage.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
   width: 100%;
   display: flex;
@@ -127,6 +132,12 @@ body {
   width: 200px;
 }
 
+.img:hover {
+  height: 205px;
+  width: 205px;
+  transition-duration: 0.2s;
+}
+
 /* Skate Images */
 .long {
   background-image: url(Resources/LongBoardE-Commerce.jpg);
@@ -166,4 +177,46 @@ body {
   border: 2px solid #f96d00;
   color: white;
   box-shadow: none;
+}
+
+/* Leaders Image */
+.pd {
+  background-image: url(Resources/ProjectDirector.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+}
+
+.f {
+  background-image: url(Resources/Founder.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+}
+
+.md {
+  background-image: url(Resources/MarketingDirector.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+}
+
+.team {
+  background-image: url("/Resources/pexels-felipe-d'sousa-2539595.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  line-height: 10px;
+}
+
+footer img {
+  width: 60px;
 }
